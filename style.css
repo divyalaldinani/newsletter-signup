@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+b {
+    font-weight: 700;
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    width: 52vw;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.left p {
+    /* background-color: inherit; */
+    padding-left: 50px;
+}
+.bullet {
+    
+    height: 18px;
+    padding-right: 8px;
+}
+.bullets img {
+    padding-top: 5px;
+}
+.bullets {
+    padding-bottom: 5px;
+    
+}
+.email {
+    /* background-color: inherit; */
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+h1 {
+    padding-top: 50px; padding-left: 50px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 44px;
+    color: hsl(234, 29%, 20%);
+    /* background-color: inherit; */
+    border-radius: inherit;
+}
+input {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 50px;
+    color: hsl(231, 7%, 60%);
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 10px;
+}
+button {
+    width: 330px;
+    height: 50px;
+    background-color:hsl(234, 29%, 20%);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+.left {
+    
+    align-items: flex-start;
+    position: relative;
+    height:inherit;
+    width: 27vw;
+    background-color:inherit;
+    border-radius:inherit;
+}
+.right {
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 25vw;
+    border-radius: inherit;
+    /* background-color: inherit; */
+}
+.right img {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    width: 75%;
+    right: -10px;
+    height: auto;
+    /* background-color: inherit; */
+}
